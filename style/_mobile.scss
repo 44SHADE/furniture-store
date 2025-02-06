@@ -10,7 +10,7 @@
         border: none;
 
         .header__input,
-        .nav > a {
+        .nav > a[class="nav__link"] {
             display: none;
         }
 
@@ -51,7 +51,7 @@
         .for__content {
             grid-template-columns: repeat(4, 1fr);
             gap: 16px;
-            align-items: center;
+            justify-items: center;
         }
 
         .for__item {
@@ -75,7 +75,7 @@
         }
 
         .product-content {
-            align-items: center;
+           justify-content: center;
         }
 
         .product__img {

@@ -587,7 +587,7 @@ select {
   flex-wrap: wrap;
   gap: 32px 65px;
   max-height: 548px;
-  max-width: 540px;
+  width: 540px;
 }
 
 .filtering-form__fieldset {
@@ -915,7 +915,7 @@ select {
     border: none;
   }
   .header .header__input,
-  .header .nav > a {
+  .header .nav > a[class=nav__link] {
     display: none;
   }
   .header .mobile__nav {
@@ -947,7 +947,7 @@ select {
   .for .for__content {
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
-    align-items: center;
+    justify-items: center;
   }
   .for .for__item {
     width: 343px;
@@ -966,7 +966,7 @@ select {
     line-height: 29px;
   }
   .product-box .product-content {
-    align-items: center;
+    justify-content: center;
   }
   .product-box .product__img {
     width: 343px;
